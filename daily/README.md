@@ -1,0 +1,2 @@
+# cd daily
+# phython main
