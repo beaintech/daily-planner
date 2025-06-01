@@ -365,7 +365,7 @@ ujson @ file:///private/var/folders/c_/qfmhj66j0tn016nkx_th4hxm0000gp/T/abs_285w
 unicodedata2 @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_1anajuo38r/croot/unicodedata2_1713212953928/work
 Unidecode @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_aacp17wle0/croot/unidecode_1724790053243/work
 urllib3 @ file:///private/var/folders/c_/qfmhj66j0tn016nkx_th4hxm0000gp/T/abs_7dvsr0a5y0/croot/urllib3_1727769823716/work
-uvicorn==0.34.2
+uvicorn==0.27.0.post1
 w3lib @ file:///Users/builder/cbouss/perseverance-python-buildout/croot/w3lib_1709225391438/work
 watchdog @ file:///Users/builder/cbouss/crwatchdog/watchdog_1717165253549/work
 wcwidth @ file:///Users/ktietz/demo/mc3/conda-bld/wcwidth_1629357192024/work
