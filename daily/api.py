@@ -2,7 +2,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from typing import List, Optional
-from daily_planner.planner import process_tasks
+from daily.daily_planner.planner import process_tasks
 
 app = FastAPI()
 
