@@ -8,7 +8,7 @@ app = FastAPI()
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=["https://beaintech.github.io", "http://localhost:5173/daily-planner/"],
     allow_methods=["*"],
     allow_headers=["*"],
 )
