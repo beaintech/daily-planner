@@ -37,7 +37,7 @@ async function submitTasks() {
       }
     })
 
-    const response = await axios.post('https://daily-planner-1.onrender.com', cleanTasks)
+    const response = await axios.post('https://daily-planner-1.onrender.com/process-tasks', cleanTasks)
     summary.value = response.data
   } catch (error) {
     console.error("Error:", error)

@@ -8,7 +8,8 @@
 # sys.path.append('/Users/bea/Desktop/daily-planner/daily')
 # print(sys.path)
 
-from daily.daily_planner.planner import run_planner
+from daily.daily_planner.planner import process_tasks
+# from daily_planner import process_tasks
 
 if __name__ == "__main__":
-    run_planner()
+    process_tasks()
