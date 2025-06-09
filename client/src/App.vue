@@ -37,8 +37,8 @@ async function submitTasks() {
       }
     })
 
-    // const response = await axios.post('https://daily-planner-1.onrender.com/process-tasks', cleanTasks)
-    const response = await axios.post('http://127.0.0.1:8000/process-tasks', cleanTasks)
+    const response = await axios.post('https://daily-planner-1.onrender.com/process-tasks', cleanTasks)
+    // const response = await axios.post('http://127.0.0.1:8000/process-tasks', cleanTasks)
 
     summary.value = response.data
   } catch (error) {
