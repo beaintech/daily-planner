@@ -54,7 +54,7 @@ async function submitTasks() {
     <div v-for="(task, index) in tasks" :key="index" class="task-card">
       <label>
         Task Name:
-        <input v-model="task.task_name" type="text" class="border p-1 rounded w-full" />
+        <input v-model="task.task_name" type="text" class="w-full"/>
       </label>
 
       <label class="block mt-2">
@@ -84,11 +84,11 @@ async function submitTasks() {
     <div v-if="summary" class="summary-box">
       <h2 class="font-bold">Summary:</h2>
       <p>Total hours: {{ summary.total_hours }}</p>
-      <ul>
+      <ol>
         <li v-for="task in summary.tasks" :key="task.task_name">
           {{ task.task_name }} - {{ task.duration_hours }} hours
         </li>
-      </ul>
+      </ol>
     </div>
   </div>
 </template>
@@ -130,7 +130,6 @@ label {
 
 input,
 select {
-  width: 100%;
   padding: 0.4rem;
   font-family: 'Press Start 2P', monospace;
   font-size: 10px;
@@ -170,11 +169,19 @@ button:hover {
 
 .summary-box {
   border: 2px solid #000;
-  background-color: #fff;
+  background-color: #e0e0d0;
   padding: 1rem;
   font-size: 10px;
   margin-top: 1.5rem;
   box-shadow: inset 2px 2px 0 #aaa;
+}
+
+.task-card {
+  background-color: #e0e0d0;
+  border: 3px dashed #555;
+  box-shadow: 4px 4px 0 #000;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
 }
 </style>
 
