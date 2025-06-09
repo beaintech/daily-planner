@@ -50,7 +50,6 @@ async function submitTasks() {
 <template>
   <div class="p-4 max-w-xl mx-auto">
     <h1 class="text-xl font-bold mb-4">Daily Task Planner</h1>
-
     <div v-for="(task, index) in tasks" :key="index" class="task-card">
       <label>
         Task Name:
